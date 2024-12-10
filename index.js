@@ -1,7 +1,7 @@
 function mnozenje(broj1, broj2) {
   let rezultat
   rezultat = broj1 * broj2
-  console.log(`Rezultat mnozenja brojeva ${broj1} i ${broj2} je${rezultat}`)
+  console.log(`Rezultat mnozenja brojeva ${broj1} i ${broj2} je ${rezultat}`)
 }
 mnozenje(3, 2)
 
@@ -23,10 +23,10 @@ function kvadrat(baza, stepen) {
 
 kvadrat(4, 2)
 
-function korijenBroja(broj) {
+function korijen(broj) {
   let rezultat
   rezultat = Math.sqrt(broj)
   console.log(`Kvadratni korijen broja ${broj} je ${rezultat}`)
 }
 
-korijenBroja(25)
+korijen(25)
